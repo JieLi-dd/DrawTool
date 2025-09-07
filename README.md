@@ -12,7 +12,7 @@ This is a drawing tool.
 ```python
 import pandas as pd 
 import numpy as np 
-from drawbox import cloudrain
+from drawbox.cloudrain import cloudrain
 
 np.random.seed(42) 
 data = pd.DataFrame({ 
